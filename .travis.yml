@@ -1,0 +1,5 @@
+language: Swift
+osx_image: xcode10.2
+xcode_project: PayManager.xcodeproj
+script: xcodebuild -project PayManager.xcodeproj -scheme "PayManager" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=latest'
+
